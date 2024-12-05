@@ -1,0 +1,17 @@
+{
+  "name": "@matheuscbs/01-ecommerce-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand"
+  },
+  "keywords": [],
+  "author": "matheuscbs",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
