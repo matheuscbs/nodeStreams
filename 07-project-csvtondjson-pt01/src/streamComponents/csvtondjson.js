@@ -31,7 +31,7 @@ export default class CSVToNDJSON extends Transform {
       const lineToProcessIndex = breaklineIndex + BREAK_LINE_SYMBOL.length;
       const line = this.#buffer.subarray(0, lineToProcessIndex);
       const lineData = line.toString();
-      console.log({ lineData });
+      // console.log({ lineData });
 
       // I'll remove from the main buffer the data
       // we already processed!
